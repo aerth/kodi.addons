@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.partymoder" version="1.0.0" name="Party Mode (music)" provider-name="aerth">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>Party Mode shuffles local music</summary>
+      <description>
+      Fast way to open Party Mode
+      </description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <news>v1.0.0 (2017-04-13)
+- initial release
+        </news>
+        <forum>https://au.isupon.us</forum>
+        <email>[aerth] at [riseup] dot [net]</email>
+    </extension>
+</addon>
+</addons>
